@@ -60,13 +60,14 @@ html {
 }
 body {
     color: #555;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 14px;
     line-height: 22px;
 }
 h1 {
     color: #c90f6b;
     font-size: 3em;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h4
 h2,
@@ -80,6 +81,7 @@ h6 {
 p {
     font-size: 16px;
     line-height: 1.9em;
+    font-family: 'Nunito', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a {
     color: #FF3450;
