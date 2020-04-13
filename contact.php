@@ -1,5 +1,5 @@
 <?php 
-$email_to = "demo@youremail.com"; //Your email will be placed here
+$email_to = "info@liftpeople.org"; //Your email will be placed here
 
 if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])){   
     $name = $_POST['name'];
