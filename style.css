@@ -76,13 +76,19 @@ h4 {
     font-family: 'Nunito', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
    
-h2,
+h2 {
+    color: #f7f7f7;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
 h3,
 h5,
 h6 {
     color: #f7f7f7;
     font-size: 1.3em;
     line-height: 1.4em;
+    background-color: #333333;
 }
 p {
     font-size: 16px;
@@ -500,7 +506,7 @@ input[type=text] {
 .home-slider .item {
     position: relative;
     overflow: hidden;
-    height: 550px;
+    height: 440px;
 }
 .slider-image > img {
     height: 100%;
@@ -545,6 +551,7 @@ input[type=text] {
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #ff3450;
 }
+
 
 /* ==================================================================
   5.0 Fun fact Section
@@ -1302,195 +1309,6 @@ ul.feature-list {
     background: #ff3450;
 }
 
-/* ==================================================================
-  18.0 Event Page
-================================================================== */
-
-.event-carousel {
-    margin: 0;
-    position: relative;
-    width: 100%;
-}
-.event-carousel.owl-theme .owl-dots {
-    display: none!important;
-}
-.owl-theme .owl-nav {
-    margin-top: 0;
-}
-.owl-theme .owl-nav [class*="owl-"] {
-    background: transparent;
-}
-.owl-theme .owl-nav [class*="owl-"]:hover {
-    background: transparent;
-}
-.event-carousel .owl-controls .owl-prev {
-    float: left;
-    color: #f1f1f1;
-    font-size: 36px;
-    line-height: 43px;
-    position: absolute;
-    top: 50%;
-    left: 5px;
-}
-.event-carousel .owl-controls .owl-next {
-    color: #f1f1f1;
-    font-size: 36px;
-    line-height: 43px;
-    float: right;
-    position: absolute;
-    top: 50%;
-    right: 5px;
-}
-.event-carousel .owl-controls .owl-prev:hover,
-.event-carousel .owl-controls .owl-next:hover{
-    color: #2867DE;
-}
-.event-carousel .slide-detels {
-    height: auto;
-    overflow: hidden;
-    padding: 80px 60px;
-}
-.event-carousel .slide-detels .slide-meta > span {
-    padding-right: 10px;
-}
-.event-carousel .slide-detels i {
-    background: #ff3450;
-    color: #ffffff;
-    padding-right: 5px;
-}
-.eventcount {
-    color: #fff;
-    margin-bottom: 25px;
-    overflow: hidden;
-}
-.eventcount > div {
-    background: #2867de;
-    border-radius: 2px;
-    float: left;
-    font-weight: bold;
-    margin-right: 5px;
-    padding: 5px 10px;
-}
-.eventcount span {
-    font-size: 20px;
-}
-.event-carousel .slide-detels .count {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 20px;
-}
-.event-carousel .slide-detels .count span {
-    font-size: 14px;
-    font-weight: 400;
-    padding-right: 9px;
-}
-.event-carousel .slide-detels .slide-title {
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 30px;
-    margin: 0;
-    padding-bottom: 15px;
-}
-.event-carousel .slide-detels .slide-meta {
-    color: #ffffff;
-}
-.event-carousel .slide-detels .sort-content {
-    color: #fff;
-    opacity: 0.8;
-    padding-bottom: 15px;
-}
-.event-carousel .slide-detels .join-list {
-    clear: left;
-    float: left;
-    margin-top: 60px;
-    overflow: hidden;
-    padding-bottom: 0;
-}
-.event-carousel .slide-detels .btn {
-    float: left;
-}
-.event-carousel .slide-detels .btn:hover {
-    background: #fff;
-    color: #2867de;
-}
-.event-carousel .slide-detels .social-icon {
-    float: left;
-    margin-top: 5px;
-    margin-left: 20px;
-}
-.event-carousel .slide-detels .social-icon i {
-    color: #ffffff;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: 400;
-    padding-right: 5px;
-}
-.event-carousel .slide-detels .speaker {
-    background-color: #ffffff;
-    color: #ff3450;
-    float: left;
-    font-weight: 700;
-    height: 24px;
-    margin-top: 55px;
-    min-height: 28px;
-    position: relative;
-}
-.event-carousel .slide-detels .speaker i {
-    background: #ffffff;
-    color: #FF3450;
-}
-.event-carousel .slide-detels .speaker-text {
-    float: left;
-    line-height: 28px;
-    padding: 0 25px 0 12px;
-}
-.event-carousel .slide-detels .speaker-thumb {
-    float: left;
-    margin-top: -11px;
-}
-.event-carousel .slide-detels .speaker-thumb img {
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin-right: 13px;
-    border: 1px solid #ffffff;
-}
-
-/* ==================================================================
-  19.0 Event Details
-================================================================== */
-
-.event-summary {
-    margin: 45px 0;
-}
-.event-object,
-.event-vanue {
-    margin-bottom: 45px;
-}
-.event-section .event-title {
-    color: #333333;
-    margin: 0;
-    padding-bottom: 15px;
-}
-.event-details .meta-list > div {
-    color: #7f7f7f;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-.event-details i {
-    padding-right: 6px;
-}
-.event-details ul.object-list {
-    margin: 0;
-    padding: 0;
-}
-.event-details .object-list li {
-    font-weight: 500;
-    list-style: outside none none;
-    margin: 0;
-    padding: 0 0 10px;
-}
 
 /* ==================================================================
   20.0 Team Page
